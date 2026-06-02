@@ -17,7 +17,7 @@ class MonJournalCarboneApp extends StatelessWidget {
       title: "Journal d'empreinte carbone",
       debugShowCheckedModeBanner: false,
       
-      // 1. Personnalisation de l'UI (ThemeData) - ODD 13 (Vert/Écolo)
+      //Personnalisation de l'UI en Vert
       theme: ThemeData(
         primarySwatch: Colors.green,
         scaffoldBackgroundColor: Colors.grey[50],
@@ -31,7 +31,7 @@ class MonJournalCarboneApp extends StatelessWidget {
         ),
       ),
 
-      // 2. Routage par Routes Nommées (Au moins 3 écrans exigés)
+      //Routage pour chaque écran 
       initialRoute: '/',
       routes: {
         '/': (context) => const ListeTrajetsScreen(),
